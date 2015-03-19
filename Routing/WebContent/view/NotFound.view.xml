@@ -1,0 +1,7 @@
+<core:View
+xmlns ="sap.m"
+xmlns:core ="sap.ui.core">
+	<Page title="Page Not Found">
+		<Label text="The Content You are Looking for can not be Found" />
+	</Page>
+</core:View>

@@ -1,0 +1,10 @@
+<core:View
+xmlns ="sap.m"
+xmlns:core ="sap.ui.core"
+controllerName="jim.routing.controller.Master" >
+	<Page title="Clients">
+		<List items="{/Customers}" itemPress="clientSelected" >
+			<StandardListItem title="{ContactName}" type="Navigation" />
+		</List>
+	</Page>
+</core:View>

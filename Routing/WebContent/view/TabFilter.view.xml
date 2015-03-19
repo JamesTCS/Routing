@@ -1,0 +1,28 @@
+<core:View
+xmlns ="sap.m"
+xmlns:core ="sap.ui.core"
+controllerName="jim.routing.controller.TabFilter">
+	<Page title="Tab Filter View">
+		<Label id="optional" text="Use Routing to select a Tab" />
+		<IconTabBar
+			id="IconTabBar">
+			<items>
+				<IconTabFilter
+					key="one"
+					icon="sap-icon://money-bills">
+					<Label text="Tab One" />
+				</IconTabFilter>
+				<IconTabFilter
+					key="two"
+					icon="sap-icon://lead">
+					<Label text="Tab Two" />
+				</IconTabFilter>
+				<IconTabFilter
+					key="three"
+					icon="sap-icon://loan">
+					<Label text="Tab Three" />
+				</IconTabFilter>
+			</items>
+		</IconTabBar>
+	</Page>
+</core:View>
